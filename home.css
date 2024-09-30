@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family:; */
+}
+
+
+.header1{
+    background-color: black;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.apps{
+    padding: 20px;
+}
+.apps>img{
+    padding: 7px;
+}
+.searchcontainer {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+}
+.search {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+.search::placeholder {
+    color: #aaa;
+}
+.search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+.logo{
+    margin-left: 250px;
+}
+ .right{
+    display: flex;
+    padding-right: 5px;
+ }
+
+.login{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    
+}
+.login:hover{
+    background-color: rgb(75, 75, 75);
+}
+.sign{
+    background-color: #54459E;
+    color: White;
+    border-radius: 3px;
+}
+.logsign>button{
+    padding: 5px;
+    margin: 5px;
+    border: none;
+}
+
+.quidditch{
+    background-color: #5758FF;
+    height: 17.6px;
+    padding: 11px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C9B7FF;
+    
+}
+.quidditch>div{
+    font-size: 11px;
+    text-decoration: underline;
+}
+.quidditch>a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 30px;
+}
+.header2>div{
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+.hermioneimg{
+    background-image: url(images/hermione.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    margin: 0;
+}
+
+.hermionecontent{
+    height: 550px;
+    
+    padding: 0px 25px;
+    margin-left: 34.4px;
+    margin-right: 34.4px;
+    border: 1px solid white;
+    position: relative;
+}
+.text{
+    height: 280px;
+    width: 1150px;
+    position: absolute;
+    right: 0px;
+    top: 172.6px;
+    bottom: 98px;
+    
+    border: 1px solid red;   
+    margin-right: 25px;
+    display: flex;
+}
+
